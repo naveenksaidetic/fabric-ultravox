@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-size: 16px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    line-height: inherit;
+    tab-size: 4;
+  }
+
+  .bg-Batman-Black {
+    --tw-bg-opacity: 1;
+    background-color: rgb(18 18 18 / var(--tw-bg-opacity));
+  }
+
+  .border-greyyy {
+    --tw-border-opacity: 1;
+    border-color: rgb(42 42 42 / var(--tw-border-opacity));
+  }
+
+  .bg-Deep-Red {
+    --tw-bg-opacity: 1;
+    background-color: rgb(221 69 88 / var(--tw-bg-opacity));
+  }
+}

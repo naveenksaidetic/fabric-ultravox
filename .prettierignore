@@ -1,0 +1,6 @@
+build
+# Ignore all HTML files:
+**/*.html
+.dockerignore
+Dockerfile*
+docker-compose*.yml
